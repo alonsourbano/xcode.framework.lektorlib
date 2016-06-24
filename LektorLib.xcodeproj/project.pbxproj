@@ -15,6 +15,10 @@
 		747DBC741D1D958B00AB49F5 /* Lektor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC721D1D958B00AB49F5 /* Lektor.swift */; };
 		747DBC751D1D958B00AB49F5 /* Lektor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC721D1D958B00AB49F5 /* Lektor.swift */; };
 		747DBC761D1D958B00AB49F5 /* Lektor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC721D1D958B00AB49F5 /* Lektor.swift */; };
+		747DBC7F1D1DAF3700AB49F5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC791D1DAF3700AB49F5 /* README.md */; };
+		747DBC801D1DAF3700AB49F5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC791D1DAF3700AB49F5 /* README.md */; };
+		747DBC811D1DAF3700AB49F5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC791D1DAF3700AB49F5 /* README.md */; };
+		747DBC821D1DAF3700AB49F5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC791D1DAF3700AB49F5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,9 @@
 		747DBC681D1D892500AB49F5 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		747DBC691D1D892500AB49F5 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		747DBC721D1D958B00AB49F5 /* Lektor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lektor.swift; sourceTree = "<group>"; };
+		747DBC781D1DAF3700AB49F5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		747DBC791D1DAF3700AB49F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		747DBC7A1D1DAF3700AB49F5 /* LektorLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LektorLib.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,7 @@
 		747DBBE41D1D83EC00AB49F5 = {
 			isa = PBXGroup;
 			children = (
+				747DBC771D1D9C8900AB49F5 /* Metada */,
 				747DBC2C1D1D87D500AB49F5 /* Products */,
 				747DBC5D1D1D88E300AB49F5 /* Sources */,
 			);
@@ -92,6 +100,17 @@
 				747DBC721D1D958B00AB49F5 /* Lektor.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		747DBC771D1D9C8900AB49F5 /* Metada */ = {
+			isa = PBXGroup;
+			children = (
+				747DBC781D1DAF3700AB49F5 /* LICENSE */,
+				747DBC791D1DAF3700AB49F5 /* README.md */,
+				747DBC7A1D1DAF3700AB49F5 /* LektorLib.podspec */,
+			);
+			name = Metada;
+			path = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC7F1D1DAF3700AB49F5 /* README.md in Sources */,
 				747DBC731D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC801D1DAF3700AB49F5 /* README.md in Sources */,
 				747DBC741D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC811D1DAF3700AB49F5 /* README.md in Sources */,
 				747DBC751D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC821D1DAF3700AB49F5 /* README.md in Sources */,
 				747DBC761D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
