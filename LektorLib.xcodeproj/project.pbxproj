@@ -18,11 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		747DBC2B1D1D87D500AB49F5 /* LektorLib iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747DBC2B1D1D87D500AB49F5 /* LektorLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LektorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC2E1D1D87D500AB49F5 /* LektorLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LektorLib.h; sourceTree = "<group>"; };
-		747DBC391D1D87F000AB49F5 /* LektorLib watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		747DBC461D1D87FE00AB49F5 /* LektorLib tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		747DBC531D1D881100AB49F5 /* LektorLib macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747DBC391D1D87F000AB49F5 /* LektorLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LektorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747DBC461D1D87FE00AB49F5 /* LektorLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LektorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		747DBC531D1D881100AB49F5 /* LektorLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LektorLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC661D1D892500AB49F5 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		747DBC671D1D892500AB49F5 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		747DBC681D1D892500AB49F5 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
@@ -73,10 +73,10 @@
 		747DBC2C1D1D87D500AB49F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				747DBC2B1D1D87D500AB49F5 /* LektorLib iOS.framework */,
-				747DBC391D1D87F000AB49F5 /* LektorLib watchOS.framework */,
-				747DBC461D1D87FE00AB49F5 /* LektorLib tvOS.framework */,
-				747DBC531D1D881100AB49F5 /* LektorLib macOS.framework */,
+				747DBC2B1D1D87D500AB49F5 /* LektorLib.framework */,
+				747DBC391D1D87F000AB49F5 /* LektorLib.framework */,
+				747DBC461D1D87FE00AB49F5 /* LektorLib.framework */,
+				747DBC531D1D881100AB49F5 /* LektorLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,7 +147,7 @@
 			);
 			name = "LektorLib iOS";
 			productName = "LektorLib iOS";
-			productReference = 747DBC2B1D1D87D500AB49F5 /* LektorLib iOS.framework */;
+			productReference = 747DBC2B1D1D87D500AB49F5 /* LektorLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		747DBC381D1D87F000AB49F5 /* LektorLib watchOS */ = {
@@ -165,7 +165,7 @@
 			);
 			name = "LektorLib watchOS";
 			productName = "LektorLib watchOS";
-			productReference = 747DBC391D1D87F000AB49F5 /* LektorLib watchOS.framework */;
+			productReference = 747DBC391D1D87F000AB49F5 /* LektorLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		747DBC451D1D87FE00AB49F5 /* LektorLib tvOS */ = {
@@ -183,7 +183,7 @@
 			);
 			name = "LektorLib tvOS";
 			productName = "LektorLib tvOS";
-			productReference = 747DBC461D1D87FE00AB49F5 /* LektorLib tvOS.framework */;
+			productReference = 747DBC461D1D87FE00AB49F5 /* LektorLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		747DBC521D1D881100AB49F5 /* LektorLib macOS */ = {
@@ -201,7 +201,7 @@
 			);
 			name = "LektorLib macOS";
 			productName = "LektorLib macOS";
-			productReference = 747DBC531D1D881100AB49F5 /* LektorLib macOS.framework */;
+			productReference = 747DBC531D1D881100AB49F5 /* LektorLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -374,7 +374,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -426,7 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,7 +484,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -536,7 +536,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -594,7 +594,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -645,7 +645,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -707,7 +707,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -760,7 +760,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vladimir-urbano.LektorLib-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LektorLib;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
