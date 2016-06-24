@@ -11,18 +11,23 @@
 		747DBC6A1D1D8FED00AB49F5 /* LektorLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 747DBC2E1D1D87D500AB49F5 /* LektorLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		747DBC6B1D1D8FED00AB49F5 /* LektorLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 747DBC2E1D1D87D500AB49F5 /* LektorLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		747DBC6C1D1D8FEE00AB49F5 /* LektorLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 747DBC2E1D1D87D500AB49F5 /* LektorLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		747DBC731D1D958B00AB49F5 /* Lektor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC721D1D958B00AB49F5 /* Lektor.swift */; };
+		747DBC741D1D958B00AB49F5 /* Lektor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC721D1D958B00AB49F5 /* Lektor.swift */; };
+		747DBC751D1D958B00AB49F5 /* Lektor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC721D1D958B00AB49F5 /* Lektor.swift */; };
+		747DBC761D1D958B00AB49F5 /* Lektor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC721D1D958B00AB49F5 /* Lektor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		747DBC2B1D1D87D500AB49F5 /* LektorLib iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		747DBC2E1D1D87D500AB49F5 /* LektorLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LektorLib.h; path = Sources/LektorLib.h; sourceTree = "<group>"; };
+		747DBC2E1D1D87D500AB49F5 /* LektorLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LektorLib.h; sourceTree = "<group>"; };
 		747DBC391D1D87F000AB49F5 /* LektorLib watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC461D1D87FE00AB49F5 /* LektorLib tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC531D1D881100AB49F5 /* LektorLib macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		747DBC661D1D892500AB49F5 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
-		747DBC671D1D892500AB49F5 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "Sources/Info-macOS.plist"; sourceTree = "<group>"; };
-		747DBC681D1D892500AB49F5 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "Sources/Info-tvOS.plist"; sourceTree = "<group>"; };
-		747DBC691D1D892500AB49F5 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "Sources/Info-watchOS.plist"; sourceTree = "<group>"; };
+		747DBC661D1D892500AB49F5 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		747DBC671D1D892500AB49F5 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		747DBC681D1D892500AB49F5 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		747DBC691D1D892500AB49F5 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
+		747DBC721D1D958B00AB49F5 /* Lektor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lektor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +89,9 @@
 				747DBC671D1D892500AB49F5 /* Info-macOS.plist */,
 				747DBC681D1D892500AB49F5 /* Info-tvOS.plist */,
 				747DBC691D1D892500AB49F5 /* Info-watchOS.plist */,
+				747DBC721D1D958B00AB49F5 /* Lektor.swift */,
 			);
-			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC731D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC741D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC751D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBC761D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
