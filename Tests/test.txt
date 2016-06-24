@@ -1,0 +1,1 @@
+Lektör is a simple Swift library for reading a text file, aka a stream reader.

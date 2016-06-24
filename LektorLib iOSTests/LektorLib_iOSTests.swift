@@ -9,27 +9,71 @@
 import XCTest
 
 class LektorLib_iOSTests: XCTestCase {
+	
+	private var lektor: Lektor?
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+		
+		self.lektor = nil
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+	func testCloseFile() {
+		self.lektor = Lektor(path: "/Volumes/Rauenstein/Users/vla/Xcode/LektorLib/Tests/test.txt")
+		self.lektor.close()
+		XCTAssert(true)
+	}
+	
+	func testReadClosedFile() {
+		self.lektor = Lektor(path: "/Volumes/Rauenstein/Users/vla/Xcode/LektorLib/Tests/test.txt")
+		self.lektor.close()
+		do {
+			let line = try self.lektor.nextLine()
+			XCTAssert(line != nil)
+		} catch {
+			
+		}
+		XCTAssert(true)
+	}
+	
+	func testReadNonExistingFile() {
+		self.lektor = Lektor(path: "/Volumes/Rauenstein/Users/vla/Xcode/LektorLib/Tests/test0.txt")
+		XCTAssert(self.lektor == nil)
+		
+		if let lektor = self.lektor {
+			do {
+				let _ = try lektor.nextLine()
+			} catch {
+				
+			}
+		}
+		XCTAssert(true)
+	}
+	
+	func testReadSingleLineFile() {
+		self.lektor = Lektor(path: "/Volumes/Rauenstein/Users/vla/Xcode/LektorLib/Tests/test.txt")
+		do {
+			let line = try self.lektor.nextLine()
+			XCTAssert(line != nil)
+		} catch {
+			
+		}
+		XCTAssert(true)
+	}
+	
+	func testReadMultipleLineFile() {
+		self.lektor = Lektor(path: "/Volumes/Rauenstein/Users/vla/Xcode/LektorLib/Tests/test2.txt")
+		do {
+			while let _ = try self.lektor.nextLine() {
+				
+			}
+		} catch {
+			
+		}
+		XCTAssert(true)
+	}
 }

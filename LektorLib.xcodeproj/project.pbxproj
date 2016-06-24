@@ -38,6 +38,9 @@
 		747DBCDD1D1DB1D700AB49F5 /* LektorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747DBC461D1D87FE00AB49F5 /* LektorLib.framework */; };
 		747DBCEA1D1DB1F100AB49F5 /* LektorLib_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBCE91D1DB1F100AB49F5 /* LektorLib_macOSTests.swift */; };
 		747DBCEC1D1DB1F100AB49F5 /* LektorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747DBC531D1D881100AB49F5 /* LektorLib.framework */; };
+		747DBCF51D1DB4B100AB49F5 /* test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 747DBCF31D1DB4B100AB49F5 /* test2.txt */; };
+		747DBCF61D1DB4B100AB49F5 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 747DBCF41D1DB4B100AB49F5 /* test.txt */; };
+		747DBCF81D1DB5B900AB49F5 /* Exceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBCF71D1DB5B900AB49F5 /* Exceptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +147,9 @@
 		747DBCE71D1DB1F100AB49F5 /* LektorLib macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LektorLib macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBCE91D1DB1F100AB49F5 /* LektorLib_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LektorLib_macOSTests.swift; sourceTree = "<group>"; };
 		747DBCEB1D1DB1F100AB49F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747DBCF31D1DB4B100AB49F5 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
+		747DBCF41D1DB4B100AB49F5 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		747DBCF71D1DB5B900AB49F5 /* Exceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exceptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,12 +253,13 @@
 		747DBC5D1D1D88E300AB49F5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				747DBC2E1D1D87D500AB49F5 /* LektorLib.h */,
+				747DBCF71D1DB5B900AB49F5 /* Exceptions.swift */,
 				747DBC661D1D892500AB49F5 /* Info-iOS.plist */,
 				747DBC671D1D892500AB49F5 /* Info-macOS.plist */,
 				747DBC681D1D892500AB49F5 /* Info-tvOS.plist */,
 				747DBC691D1D892500AB49F5 /* Info-watchOS.plist */,
 				747DBC721D1D958B00AB49F5 /* Lektor.swift */,
+				747DBC2E1D1D87D500AB49F5 /* LektorLib.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -345,6 +352,8 @@
 				747DBCD91D1DB1D700AB49F5 /* LektorLib tvOSTests */,
 				747DBCB21D1DB17100AB49F5 /* LektorLib watchOSExample */,
 				747DBCC11D1DB17100AB49F5 /* LektorLib watchOSExample Extension */,
+				747DBCF41D1DB4B100AB49F5 /* test.txt */,
+				747DBCF31D1DB4B100AB49F5 /* test2.txt */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -642,6 +651,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				747DBCF61D1DB4B100AB49F5 /* test.txt in Resources */,
+				747DBCF51D1DB4B100AB49F5 /* test2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,6 +733,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				747DBC7F1D1DAF3700AB49F5 /* README.md in Sources */,
+				747DBCF81D1DB5B900AB49F5 /* Exceptions.swift in Sources */,
 				747DBC731D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
