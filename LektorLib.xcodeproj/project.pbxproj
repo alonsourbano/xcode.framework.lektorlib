@@ -16,16 +16,16 @@
 /* Begin PBXFileReference section */
 		747DBBF01D1D84CB00AB49F5 /* LektorLib iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBBF31D1D84CB00AB49F5 /* LektorLib iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LektorLib iOS.h"; sourceTree = "<group>"; };
-		747DBBF51D1D84CB00AB49F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747DBBF51D1D84CB00AB49F5 /* Info-iOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "../LektorLib iOS/Info-iOS.plist"; sourceTree = "<group>"; };
 		747DBBFE1D1D851900AB49F5 /* LektorLib watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC001D1D851900AB49F5 /* LektorLib watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LektorLib watchOS.h"; sourceTree = "<group>"; };
-		747DBC021D1D851900AB49F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747DBC021D1D851900AB49F5 /* Info-watchOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "../LektorLib watchOS/Info-watchOS.plist"; sourceTree = "<group>"; };
 		747DBC0B1D1D853000AB49F5 /* LektorLib tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC0D1D1D853000AB49F5 /* LektorLib tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LektorLib tvOS.h"; sourceTree = "<group>"; };
-		747DBC0F1D1D853000AB49F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747DBC0F1D1D853000AB49F5 /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "../LektorLib tvOS/Info-tvOS.plist"; sourceTree = "<group>"; };
 		747DBC181D1D855800AB49F5 /* LektorLib macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "LektorLib macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC1A1D1D855800AB49F5 /* LektorLib macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LektorLib macOS.h"; sourceTree = "<group>"; };
-		747DBC1C1D1D855800AB49F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747DBC1C1D1D855800AB49F5 /* Info-macOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-macOS.plist"; path = "../LektorLib macOS/Info-macOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +63,12 @@
 		747DBBE41D1D83EC00AB49F5 = {
 			isa = PBXGroup;
 			children = (
-				747DBC251D1D869600AB49F5 /* Sources */,
 				747DBBF21D1D84CB00AB49F5 /* LektorLib iOS */,
-				747DBBFF1D1D851900AB49F5 /* LektorLib watchOS */,
-				747DBC0C1D1D853000AB49F5 /* LektorLib tvOS */,
 				747DBC191D1D855800AB49F5 /* LektorLib macOS */,
+				747DBC0C1D1D853000AB49F5 /* LektorLib tvOS */,
+				747DBBFF1D1D851900AB49F5 /* LektorLib watchOS */,
 				747DBBF11D1D84CB00AB49F5 /* Products */,
+				747DBC251D1D869600AB49F5 /* Sources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				747DBBF31D1D84CB00AB49F5 /* LektorLib iOS.h */,
-				747DBBF51D1D84CB00AB49F5 /* Info.plist */,
 			);
 			path = "LektorLib iOS";
 			sourceTree = "<group>";
@@ -96,7 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				747DBC001D1D851900AB49F5 /* LektorLib watchOS.h */,
-				747DBC021D1D851900AB49F5 /* Info.plist */,
 			);
 			path = "LektorLib watchOS";
 			sourceTree = "<group>";
@@ -105,7 +103,6 @@
 			isa = PBXGroup;
 			children = (
 				747DBC0D1D1D853000AB49F5 /* LektorLib tvOS.h */,
-				747DBC0F1D1D853000AB49F5 /* Info.plist */,
 			);
 			path = "LektorLib tvOS";
 			sourceTree = "<group>";
@@ -114,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				747DBC1A1D1D855800AB49F5 /* LektorLib macOS.h */,
-				747DBC1C1D1D855800AB49F5 /* Info.plist */,
 			);
 			path = "LektorLib macOS";
 			sourceTree = "<group>";
@@ -122,6 +118,10 @@
 		747DBC251D1D869600AB49F5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				747DBC021D1D851900AB49F5 /* Info-watchOS.plist */,
+				747DBC0F1D1D853000AB49F5 /* Info-tvOS.plist */,
+				747DBC1C1D1D855800AB49F5 /* Info-macOS.plist */,
+				747DBBF51D1D84CB00AB49F5 /* Info-iOS.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
