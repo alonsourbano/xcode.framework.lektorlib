@@ -35,6 +35,7 @@
 		747DBC781D1DAF3700AB49F5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		747DBC791D1DAF3700AB49F5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		747DBC7A1D1DAF3700AB49F5 /* LektorLib.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LektorLib.podspec; sourceTree = "<group>"; };
+		747DBC871D1DB04700AB49F5 /* LektorLib.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LektorLib.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		747DBBE41D1D83EC00AB49F5 = {
 			isa = PBXGroup;
 			children = (
+				747DBC871D1DB04700AB49F5 /* LektorLib.playground */,
 				747DBC771D1D9C8900AB49F5 /* Metada */,
 				747DBC2C1D1D87D500AB49F5 /* Products */,
 				747DBC5D1D1D88E300AB49F5 /* Sources */,
@@ -823,6 +825,7 @@
 				747DBC321D1D87D500AB49F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		747DBC3E1D1D87F000AB49F5 /* Build configuration list for PBXNativeTarget "LektorLib watchOS" */ = {
 			isa = XCConfigurationList;
@@ -831,6 +834,7 @@
 				747DBC401D1D87F000AB49F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		747DBC4B1D1D87FE00AB49F5 /* Build configuration list for PBXNativeTarget "LektorLib tvOS" */ = {
 			isa = XCConfigurationList;
@@ -839,6 +843,7 @@
 				747DBC4D1D1D87FE00AB49F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		747DBC581D1D881100AB49F5 /* Build configuration list for PBXNativeTarget "LektorLib macOS" */ = {
 			isa = XCConfigurationList;
@@ -847,6 +852,7 @@
 				747DBC5A1D1D881100AB49F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

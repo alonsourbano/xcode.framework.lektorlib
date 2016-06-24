@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "747DBC381D1D87F000AB49F5"
-               BuildableName = "LektorLib watchOS.framework"
+               BuildableName = "LektorLib.framework"
                BlueprintName = "LektorLib watchOS"
                ReferencedContainer = "container:LektorLib.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "747DBC381D1D87F000AB49F5"
-            BuildableName = "LektorLib watchOS.framework"
+            BuildableName = "LektorLib.framework"
             BlueprintName = "LektorLib watchOS"
             ReferencedContainer = "container:LektorLib.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "747DBC381D1D87F000AB49F5"
-            BuildableName = "LektorLib watchOS.framework"
+            BuildableName = "LektorLib.framework"
             BlueprintName = "LektorLib watchOS"
             ReferencedContainer = "container:LektorLib.xcodeproj">
          </BuildableReference>

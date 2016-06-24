@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "747DBC521D1D881100AB49F5"
-               BuildableName = "LektorLib macOS.framework"
+               BuildableName = "LektorLib.framework"
                BlueprintName = "LektorLib macOS"
                ReferencedContainer = "container:LektorLib.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "747DBC521D1D881100AB49F5"
-            BuildableName = "LektorLib macOS.framework"
+            BuildableName = "LektorLib.framework"
             BlueprintName = "LektorLib macOS"
             ReferencedContainer = "container:LektorLib.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "747DBC521D1D881100AB49F5"
-            BuildableName = "LektorLib macOS.framework"
+            BuildableName = "LektorLib.framework"
             BlueprintName = "LektorLib macOS"
             ReferencedContainer = "container:LektorLib.xcodeproj">
          </BuildableReference>
