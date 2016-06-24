@@ -22,8 +22,6 @@
 		747DBC8F1D1DB0DD00AB49F5 /* LektorLib_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC8E1D1DB0DD00AB49F5 /* LektorLib_iOSTests.swift */; };
 		747DBC911D1DB0DD00AB49F5 /* LektorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747DBC2B1D1D87D500AB49F5 /* LektorLib.framework */; };
 		747DBC9E1D1DB11E00AB49F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC9D1D1DB11E00AB49F5 /* AppDelegate.swift */; };
-		747DBCA01D1DB11E00AB49F5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBC9F1D1DB11E00AB49F5 /* FirstViewController.swift */; };
-		747DBCA21D1DB11E00AB49F5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBCA11D1DB11E00AB49F5 /* SecondViewController.swift */; };
 		747DBCA51D1DB11E00AB49F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747DBCA31D1DB11E00AB49F5 /* Main.storyboard */; };
 		747DBCA71D1DB11E00AB49F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747DBCA61D1DB11E00AB49F5 /* Assets.xcassets */; };
 		747DBCAA1D1DB11E00AB49F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747DBCA81D1DB11E00AB49F5 /* LaunchScreen.storyboard */; };
@@ -38,9 +36,8 @@
 		747DBCDD1D1DB1D700AB49F5 /* LektorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747DBC461D1D87FE00AB49F5 /* LektorLib.framework */; };
 		747DBCEA1D1DB1F100AB49F5 /* LektorLib_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBCE91D1DB1F100AB49F5 /* LektorLib_macOSTests.swift */; };
 		747DBCEC1D1DB1F100AB49F5 /* LektorLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747DBC531D1D881100AB49F5 /* LektorLib.framework */; };
-		747DBCF51D1DB4B100AB49F5 /* test2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 747DBCF31D1DB4B100AB49F5 /* test2.txt */; };
-		747DBCF61D1DB4B100AB49F5 /* test.txt in Resources */ = {isa = PBXBuildFile; fileRef = 747DBCF41D1DB4B100AB49F5 /* test.txt */; };
 		747DBCF81D1DB5B900AB49F5 /* Exceptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBCF71D1DB5B900AB49F5 /* Exceptions.swift */; };
+		747DBCFA1D1DB82D00AB49F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747DBCF91D1DB82D00AB49F5 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,8 +123,6 @@
 		747DBC901D1DB0DD00AB49F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		747DBC9B1D1DB11E00AB49F5 /* LektorLib iOSExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LektorLib iOSExample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		747DBC9D1D1DB11E00AB49F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		747DBC9F1D1DB11E00AB49F5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		747DBCA11D1DB11E00AB49F5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		747DBCA41D1DB11E00AB49F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		747DBCA61D1DB11E00AB49F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		747DBCA91D1DB11E00AB49F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -150,6 +145,7 @@
 		747DBCF31D1DB4B100AB49F5 /* test2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.txt; sourceTree = "<group>"; };
 		747DBCF41D1DB4B100AB49F5 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 		747DBCF71D1DB5B900AB49F5 /* Exceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exceptions.swift; sourceTree = "<group>"; };
+		747DBCF91D1DB82D00AB49F5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,12 +285,11 @@
 			isa = PBXGroup;
 			children = (
 				747DBC9D1D1DB11E00AB49F5 /* AppDelegate.swift */,
-				747DBC9F1D1DB11E00AB49F5 /* FirstViewController.swift */,
-				747DBCA11D1DB11E00AB49F5 /* SecondViewController.swift */,
 				747DBCA31D1DB11E00AB49F5 /* Main.storyboard */,
 				747DBCA61D1DB11E00AB49F5 /* Assets.xcassets */,
 				747DBCA81D1DB11E00AB49F5 /* LaunchScreen.storyboard */,
 				747DBCAB1D1DB11E00AB49F5 /* Info.plist */,
+				747DBCF91D1DB82D00AB49F5 /* ViewController.swift */,
 			);
 			name = "LektorLib iOSExample";
 			path = "../LektorLib iOSExample";
@@ -651,8 +646,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747DBCF61D1DB4B100AB49F5 /* test.txt in Resources */,
-				747DBCF51D1DB4B100AB49F5 /* test2.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +727,7 @@
 			files = (
 				747DBC7F1D1DAF3700AB49F5 /* README.md in Sources */,
 				747DBCF81D1DB5B900AB49F5 /* Exceptions.swift in Sources */,
+				747DBCFA1D1DB82D00AB49F5 /* ViewController.swift in Sources */,
 				747DBC731D1D958B00AB49F5 /* Lektor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -777,9 +771,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				747DBCA21D1DB11E00AB49F5 /* SecondViewController.swift in Sources */,
 				747DBC9E1D1DB11E00AB49F5 /* AppDelegate.swift in Sources */,
-				747DBCA01D1DB11E00AB49F5 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
