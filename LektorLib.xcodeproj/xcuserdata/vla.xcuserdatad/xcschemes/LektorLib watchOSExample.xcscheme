@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0730"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "747DBCB01D1DB17100AB49F5"
+               BuildableName = "LektorLib watchOSExample.app"
+               BlueprintName = "LektorLib watchOSExample"
+               ReferencedContainer = "container:LektorLib.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "747DBC9A1D1DB11E00AB49F5"
+               BuildableName = "LektorLib iOSExample.app"
+               BlueprintName = "LektorLib iOSExample"
+               ReferencedContainer = "container:LektorLib.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "747DBCBC1D1DB17100AB49F5"
+               BuildableName = "LektorLib watchOSExample Extension.appex"
+               BlueprintName = "LektorLib watchOSExample Extension"
+               ReferencedContainer = "container:LektorLib.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747DBCB01D1DB17100AB49F5"
+            BuildableName = "LektorLib watchOSExample.app"
+            BlueprintName = "LektorLib watchOSExample"
+            ReferencedContainer = "container:LektorLib.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/LektorLib iOSExample">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747DBCB01D1DB17100AB49F5"
+            BuildableName = "LektorLib watchOSExample.app"
+            BlueprintName = "LektorLib watchOSExample"
+            ReferencedContainer = "container:LektorLib.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747DBCB01D1DB17100AB49F5"
+            BuildableName = "LektorLib watchOSExample.app"
+            BlueprintName = "LektorLib watchOSExample"
+            ReferencedContainer = "container:LektorLib.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/LektorLib iOSExample">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747DBCB01D1DB17100AB49F5"
+            BuildableName = "LektorLib watchOSExample.app"
+            BlueprintName = "LektorLib watchOSExample"
+            ReferencedContainer = "container:LektorLib.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "747DBCB01D1DB17100AB49F5"
+            BuildableName = "LektorLib watchOSExample.app"
+            BlueprintName = "LektorLib watchOSExample"
+            ReferencedContainer = "container:LektorLib.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>
