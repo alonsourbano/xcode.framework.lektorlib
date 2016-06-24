@@ -221,14 +221,9 @@
 			children = (
 				747DBC871D1DB04700AB49F5 /* LektorLib.playground */,
 				747DBC771D1D9C8900AB49F5 /* Metada */,
-				747DBC8D1D1DB0DD00AB49F5 /* LektorLib iOSTests */,
-				747DBC9C1D1DB11E00AB49F5 /* LektorLib iOSExample */,
-				747DBCB21D1DB17100AB49F5 /* LektorLib watchOSExample */,
-				747DBCC11D1DB17100AB49F5 /* LektorLib watchOSExample Extension */,
-				747DBCD91D1DB1D700AB49F5 /* LektorLib tvOSTests */,
-				747DBCE81D1DB1F100AB49F5 /* LektorLib macOSTests */,
 				747DBC2C1D1D87D500AB49F5 /* Products */,
 				747DBC5D1D1D88E300AB49F5 /* Sources */,
+				747DBCF21D1DB3B500AB49F5 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -279,7 +274,8 @@
 				747DBC8E1D1DB0DD00AB49F5 /* LektorLib_iOSTests.swift */,
 				747DBC901D1DB0DD00AB49F5 /* Info.plist */,
 			);
-			path = "LektorLib iOSTests";
+			name = "LektorLib iOSTests";
+			path = "../LektorLib iOSTests";
 			sourceTree = "<group>";
 		};
 		747DBC9C1D1DB11E00AB49F5 /* LektorLib iOSExample */ = {
@@ -293,7 +289,8 @@
 				747DBCA81D1DB11E00AB49F5 /* LaunchScreen.storyboard */,
 				747DBCAB1D1DB11E00AB49F5 /* Info.plist */,
 			);
-			path = "LektorLib iOSExample";
+			name = "LektorLib iOSExample";
+			path = "../LektorLib iOSExample";
 			sourceTree = "<group>";
 		};
 		747DBCB21D1DB17100AB49F5 /* LektorLib watchOSExample */ = {
@@ -303,7 +300,8 @@
 				747DBCB61D1DB17100AB49F5 /* Assets.xcassets */,
 				747DBCB81D1DB17100AB49F5 /* Info.plist */,
 			);
-			path = "LektorLib watchOSExample";
+			name = "LektorLib watchOSExample";
+			path = "../LektorLib watchOSExample";
 			sourceTree = "<group>";
 		};
 		747DBCC11D1DB17100AB49F5 /* LektorLib watchOSExample Extension */ = {
@@ -314,7 +312,8 @@
 				747DBCC61D1DB17100AB49F5 /* Assets.xcassets */,
 				747DBCC81D1DB17100AB49F5 /* Info.plist */,
 			);
-			path = "LektorLib watchOSExample Extension";
+			name = "LektorLib watchOSExample Extension";
+			path = "../LektorLib watchOSExample Extension";
 			sourceTree = "<group>";
 		};
 		747DBCD91D1DB1D700AB49F5 /* LektorLib tvOSTests */ = {
@@ -323,7 +322,8 @@
 				747DBCDA1D1DB1D700AB49F5 /* LektorLib_tvOSTests.swift */,
 				747DBCDC1D1DB1D700AB49F5 /* Info.plist */,
 			);
-			path = "LektorLib tvOSTests";
+			name = "LektorLib tvOSTests";
+			path = "../LektorLib tvOSTests";
 			sourceTree = "<group>";
 		};
 		747DBCE81D1DB1F100AB49F5 /* LektorLib macOSTests */ = {
@@ -332,7 +332,21 @@
 				747DBCE91D1DB1F100AB49F5 /* LektorLib_macOSTests.swift */,
 				747DBCEB1D1DB1F100AB49F5 /* Info.plist */,
 			);
-			path = "LektorLib macOSTests";
+			name = "LektorLib macOSTests";
+			path = "../LektorLib macOSTests";
+			sourceTree = "<group>";
+		};
+		747DBCF21D1DB3B500AB49F5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				747DBC9C1D1DB11E00AB49F5 /* LektorLib iOSExample */,
+				747DBC8D1D1DB0DD00AB49F5 /* LektorLib iOSTests */,
+				747DBCE81D1DB1F100AB49F5 /* LektorLib macOSTests */,
+				747DBCD91D1DB1D700AB49F5 /* LektorLib tvOSTests */,
+				747DBCB21D1DB17100AB49F5 /* LektorLib watchOSExample */,
+				747DBCC11D1DB17100AB49F5 /* LektorLib watchOSExample Extension */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
